@@ -65,11 +65,11 @@ For more details, refer to schema.sql.
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-1- Fork the project
-2- Create your feature branch (`git checkout -b feature/your-feature`)
-3- Commit your changes (`git commit -m 'Add some feature`)
-4- Push to the branch (`git push origin feature/your-feature`)
-5- Open a pull request
+- Fork the project     
+- Create your feature branch (`git checkout -b feature/your-feature`)     
+- Commit your changes (`git commit -m 'Add some feature`)    
+- Push to the branch (`git push origin feature/your-feature`)     
+- Open a pull request     
 
 ## License
 
