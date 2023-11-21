@@ -28,17 +28,48 @@ Employee Tracker is a command-line application designed to streamline employee m
 
 To get started, clone the repository, install the necessary dependencies, and set up the MySQL database using the provided schema and seed data. Follow the instructions in the [Getting Started](#getting-started) section of the README.
 
+## Installation:
+
+1- Clone the repository:
+`git clone https://github.com/your-username/employee-tracker.git`
+
+2- Navigate to the project directory:
+`cd employee-tracker`
+
+3- Install dependencies:
+`npm install`
+
+4- Set up the database by importing the schema and seed data:
+`mysql -u your-username -p employees < schema.sql`
+`mysql -u your-username -p employees < seed.sql`
+
+
 ## Usage
 
 Run the application using the provided npm script, and follow the prompts to interact with the Employee Tracker.
 
+`npm run start`
+
 ## Database Schema
 
-The MySQL database schema includes tables for departments, roles, and employees. For more details, refer to the [schema.sql](schema.sql) file.
+The database schema includes the following tables:
+
+* `department`
+* `role`
+* `employee`
+For more details, refer to schema.sql.
+
+![Database Schema](Assets/schema.png)
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, follow the steps outlined in the [Contributing](#contributing) section of the README.
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1- Fork the project
+2- Create your feature branch (`git checkout -b feature/your-feature`)
+3- Commit your changes (`git commit -m 'Add some feature`)
+4- Push to the branch (`git push origin feature/your-feature`)
+5- Open a pull request
 
 ## License
 
